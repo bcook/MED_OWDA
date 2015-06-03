@@ -1,2 +1,2 @@
 # MED_OWDA
-Code and manuscript for the Mediterranean OWDA manuscript.
+Code, files, figures, and manuscript for the Mediterranean OWDA manuscript.

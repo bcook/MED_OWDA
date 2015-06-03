@@ -1,0 +1,660 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% American Geophysical Union (AGU)
+% LaTeX Template
+% Version 1.0 (3/6/13)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% The AGUTeX class and agu-ps referencing style were created and are owned 
+% by AGU: http://publications.agu.org/author-resource-center/author-guide/latex-formatting-toolkit/
+%
+% This template has been modified from the blank AGU template to include
+% examples of how to insert content and drastically change commenting. The
+% structural integrity is maintained as in the original blank template.
+%
+% Important notes: 
+% This template retains extensive commenting from the AGU template. It is heavily 
+% advised you read these comments and follow them in order to insure a speedy 
+% submission process.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% AGUtmpl.tex: this template file is for articles formatted with LaTeX2e,
+% Modified March 2013
+%
+% This template includes commands and instructions
+% given in the order necessary to produce a final output that will
+% satisfy AGU requirements.
+%
+% PLEASE DO NOT USE YOUR OWN MACROS
+% DO NOT USE \newcommand, \renewcommand, or \def.
+%
+% FOR FIGURES, DO NOT USE \psfrag or \subfigure.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% All questions should be e-mailed to latex@agu.org.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% Step 1: Set the \documentclass
+
+% There are two options for article format: two column (default) and draft.
+
+% PLEASE USE THE DRAFT OPTION TO SUBMIT YOUR PAPERS.
+% The draft option produces double spaced output.
+
+% Choose the journal abbreviation for the journal you are submitting to:
+
+% jgrga	JOURNAL OF GEOPHYSICAL RESEARCH
+% gbc	GLOBAL BIOCHEMICAL CYCLES
+% grl		GEOPHYSICAL RESEARCH LETTERS
+% pal	PALEOCEANOGRAPHY
+% ras	RADIO SCIENCE
+% rog	REVIEWS OF GEOPHYSICS
+% tec	TECTONICS
+% wrr	WATER RESOURCES RESEARCH
+% gc		GEOCHEMISTRY, GEOPHYSICS, GEOSYSTEMS
+% sw	SPACE WEATHER
+% ms	JAMES
+%
+%
+%
+% (If you are submitting to a journal other than jgrga,
+% substitute the initials of the journal for "jgrga" below.)
+
+\documentclass[draft,jgr]{AGUTeX}
+
+% To create numbered lines:
+
+% If you don't already have lineno.sty, you can download it from http://www.ctan.org/tex-archive/macros/latex/contrib/ednotes/ (or search the internet for lineno.sty ctan), available at TeX Archive Network (CTAN). Take care that you always use the latest version.
+
+% To activate the commands, uncomment \usepackage{lineno} and \linenumbers*[1]command, below:
+
+\usepackage{lineno,url}
+\linenumbers*[1]
+%\usepackage{hyperref}
+
+
+%  To add line numbers to lines with equations:
+%  \begin{linenomath*}
+%  \begin{equation}
+%  \end{equation}
+%  \end{linenomath*}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Figures and Tables
+
+% DO NOT USE \psfrag or \subfigure commands.
+
+%  Figures and tables should be placed AT THE END OF THE ARTICLE, after the references.
+
+%  Uncomment the following command to include .eps files (comment out this line for draft format):
+%\usepackage[dvips]{graphicx}
+\usepackage{graphicx}
+
+% Substitute one of the following for [dvips] above if you are using a different driver program and want to proof your illustrations on your machine:
+% [xdvi], [dvipdf], [dvipsone], [dviwindo], [emtex], [dviwin],
+% [pctexps],  [pctexwin],  [pctexhp],  [pctex32], [truetex], [tcidvi],
+% [oztex], [textures]
+
+%  Uncomment the following command to allow illustrations to print when using Draft:
+\setkeys{Gin}{draft=false}
+
+% See how to enter figures and tables at the end of the article, after references.
+
+%----------------------------------------------------------------------------------------
+%	RUNNING HEAD AND CORRESPONDING AUTHOR
+%----------------------------------------------------------------------------------------
+
+% Author names in capital letters:
+\authorrunninghead{COOK ET AL.}
+
+%------------------------------------------------
+
+% Shorter version of title entered in capital letters:
+\titlerunninghead{MEDITERRANEAN DROUGHT}
+
+%------------------------------------------------
+
+% Corresponding author mailing address and e-mail address:
+\authoraddr{Corresponding author: Benjamin I Cook, NASA Goddard Institute for Space Studies, New York, New York, USA. (benjamin.i.cook@nasa.gov)}
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	TITLE
+%----------------------------------------------------------------------------------------
+
+\title{Mediterranean drought variability over the last millennium}
+%\title{The Worst Drought of the Millennium: The Pan-Continental Event of 1934}
+
+%----------------------------------------------------------------------------------------
+%	AUTHORS AND AFFILIATIONS
+%----------------------------------------------------------------------------------------
+
+% Use \author{\altaffilmark{}} and \altaffiltext{}
+
+% \altaffilmark will produce footnote; matching \altaffiltext will appear at bottom of page.
+
+\authors{Benjamin I Cook\altaffilmark{1,2},
+Kevin J Anchukaitis\altaffilmark{3}, 
+Ramzi Touchan\altaffilmark{4}, 
+David M Meko\altaffilmark{4}, and
+Edward R Cook \altaffilmark{5}}
+
+\altaffiltext{1}{NASA Goddard Institute for Space Studies, New York, New York, USA.}
+
+\altaffiltext{2}{Ocean and Climate Physics, Lamont-Doherty Earth Observatory, Palisades, New York, USA.}
+
+\altaffiltext{3}{Woods Hole Oceanographic Institution, Woods Hole, Massachusetts, USA.}
+
+\altaffiltext{4}{Laboratory of Tree-Ring Research, University of Arizona, Tucson, Arizona, USA.}
+
+\altaffiltext{5}{Tree Ring Laboratory, Lamont-Doherty Earth Observatory, Palisades, New York, USA.}
+
+%----------------------------------------------------------------------------------------
+%	ABSTRACT
+%----------------------------------------------------------------------------------------
+
+% Do NOT include any \begin...\end commands within the body of the abstract.
+% 250 word limit in abstract for JGR
+\begin{abstract}
+Recent droughts in the Mediterranean have highlighted concerns that climate change may be contributing to recent drying trends, but the full range of natural climate variability in the region is still poorly understood. Here, we analyze 900 years (1100--2012) of Mediterranean drought variability in the Old World Drought Atlas (OWDA), a spatiotemporal tree-ring based reconstruction of the June-July-August self calibrating Palmer Drought Severity Index. In the Mediterranean, the OWDA is highly correlated with spring precipitation (April--June) and the North Atlantic Oscillation (January--April), the Scandinavian Pattern (January--March), and the East Atlantic Pattern (April--June). Drought variability in the basin shows significant east-west coherence on multi-decadal to centennial time scales. There is also an apparent North-South dipole in the eastern Mediterranean, with a tendency for Greece and Anatolia to be wet when the southern Levant and coastal Libya and Egypt are dry, possibly related to variability in the North Atlantic Oscillation. Major droughts and drying trends over the last several decades are centered in the western Mediterranean, Greece, and the Levant region. Droughts of similar magnitudes in the western Mediterranean and Greece are apparent in the OWDA back to 1100 CE, but the most recent 15-year drought in the Levant (1998--2012) appears as the driest such period on the record. Estimating sampling uncertainties using a Monte-Carlo approach, we conclude that there is an 89\% likelihood that the recent Levant drought is drier than any comparable period of the last 900 years, possibly indicating the emergence of a greenhouse gas forced drying signal. % 222 words
+\end{abstract}
+
+%----------------------------------------------------------------------------------------
+%	ARTICLE CONTENT
+%----------------------------------------------------------------------------------------
+
+% The body of the article must start with a \begin{article} command
+% \end{article} must follow the references section, before the figures and tables.
+
+\begin{article}
+
+\section{Introduction}
+\noindent Climate change impacts on water resources are a significant concern in the regions surrounding the Mediterranean Sea \citep{Iglesias2007,GarciaRuiz2011}, an area including southern Europe, Northern Africa, and the Levant (Cyprus, Israel, Jordan, Lebanon, Palestine, Syria, Turkey) region of the Middle East. Projections from climate models almost uniformly point towards drying in the Mediterranean from increased greenhouse gas forcing in the coming decades \citep{Giorgi2008,Seager2014med}, part of an overall trend towards desiccation and poleward expansion of subtropical dry zones \citep{Held:2006,Seager2010b}. Indeed, analyses of recent climate trends in the region suggest that this process may have already begun \citep{GarciaRuiz2011,Gleick2014,Hoerling2012c,Kelley2012,Kelley2015}. 
+
+\indent However, a more complete understanding of natural Mediterranean drought variability and anthropogenic moisture trends requires comparisons with longer term variability than is observable from relatively short instrumental records. To this end, the paleoclimate community has been active throughout this region, developing estimates of Common Era drought variability from a variety of proxies, including tree-rings \citep{Chbouki:etal1995,Glueck:Stockton2001,Touchan:etal2003,Akkemik:Aras2005,Touchan:etal2005,Esper:etal2007a,Andreu:etal2007,Nicault:etal2008,Touchan:etal2008a,Buntgen:etal2010,Touchan:etal2010a,Kose:etal2011,Touchan:etal2014a}, sediment cores \citep[e.g.,][]{Jones:etal2006,Roberts:etal2012,Moreno:etal2012}, and speleothems \citep[e.g.,][]{Jex:etal2011,Wassenburg:etal2013}. To date, however, there is little consensus across these different records regarding the character and dominant drivers of drought variability across the basin over the last millennium. In particular, there are extant uncertainties regarding how widespread droughts are in the Mediterranean \citep{Roberts:etal2012}, the magnitude and timing of long-term trends and centennial-scale variability \citep{Esper:etal2007a,Touchan:etal2010a,Wassenburg:etal2013}, and how seasonal signals and large-scale climate modes are reflected in proxy reconstructions \citep{Touchan:etal2014a,Touchan:etal2014b,Seim:etal2014}.
+
+\indent Given these uncertainties, the development and analyses of new large-scale reconstructions is imperative for improving our understanding of regional climate dynamics in the Mediterranean region. Here, we use a spatially resolved tree-ring based field reconstruction of European and Mediterranean drought to investigate the dominant spatial and temporal patterns of drought variability across the basin over the last millennium. Specifically, our analysis addresses three primary research questions: 1) What are the dominant modes of hydroclimate variability in the Mediterranean? 2) How spatially coherent are drought events across the Mediterranean basin? and 3) How do major recent droughts compare to long-term hydroclimate variability over the last millennium?
+%------------------------------------------------
+
+\section{Materials and Methods}
+\subsection{The Old World Drought Atlas}
+\noindent The Old World Drought Atlas \citep[OWDA;][]{CookOWDA2015} is a new, tree-ring based reconstruction of summer season (June-July-August, JJA) self calibrating Palmer Drought Severity Index (scPDSI) \citep{Schrier2013}. The OWDA uses 106 tree-ring chronologies to reconstruct scPDSI at 5,414 half degree grid points for the entire Common Era over the European-Mediterranean domain (27\textsuperscript{o}N--71\textsuperscript{o}N, 12\textsuperscript{o}W--45\textsuperscript{o}E). The reconstruction uses the point-by-point method (ref XXXX) with a search radius of 1000 kilometers, meaning any grid cell can be reconstructed from proxy predictor series within 1000 kilometers. Proxy site locations in the Mediterranean portion of the OWDA (30\textsuperscript{o}N--47\textsuperscript{o}N, 10\textsuperscript{o}W--45\textsuperscript{o}E) are shown in Figure 1, along with the approximate start date of the various records. We restrict our analysis to 1100--2012 CE, the interval during which the Mediterranean domain is reasonably well covered by proxy sites. Values in the OWDA up through 1978 are tree-ring reconstructed; from 1979--2012 the OWDA incorporates the instrumental scPDSI. 
+
+\indent  The scPDSI is a modification of the original PDSI formulation of \cite{Palmer1965}, a locally normalized drought index incorporating changes in supply (precipitation), demand (evapotranspiration) and storage (soil moisture). PDSI has an inherent memory timescale of 12--18 months \citep{Guttman1998,Vicente2010}, allowing the JJA target of the OWDA to incorporate climate information from the previous winter and spring, the main seasons of moisture supply to the Mediterranean. The scPDSI used as the target for the OWDA reconstruction is based on the latest version (TS3.21) of the high-resolution CRU gridded product \citep{Harris2014}, incorporates a snow module, and uses the Penman-Monteith formulation for calculating potential evapotranspiration \citep{Schrier2013}.
+
+\subsection{Climate Data}
+\noindent Monthly precipitation data used in the analyses are from the high-resolution CRU gridded climate data \citep[TS3.21,][]{Harris2014}. We also use monthly average indices from the Climate Prediction Center from climate modes previously shown to have an influence on Mediterranean climate \citep{Sousa2011}. The North Atlantic Oscillation \citep[NAO;][]{Hurrell1995} consists of a north-south dipole in atmospheric pressure between Greenland and the subtropical North Atlantic, with positive phases typically associated with below-average precipitation in the Mediterranean and southern Europe. The Scandinavian Pattern \citep[SCA;][]{Bueh2007} is centered over Scandinavia, with positive height anomalies in this region causing above-average precipitation across central and southern Europe. The East Atlantic Pattern \citep[EA;][]{Barnston1987} is similar to the NAO, consisting of a north-south anomaly dipole in the Atlantic. Unlike the NAO, however, the EA has stronger connections to the subtropical ridge. Positive phases of the EA are linked to below average precipitation across southern Europe. For the CRU precipitation data and the climate indices, we restrict our analysis for the most recent period when data quality and availability is highest (1950--2012).
+
+\subsection{Analyses}
+\noindent We use Spearman's rank correlations to assess the statistical relationship between reconstructions, observations, and indices.  Spearman's is a non-parametric alternative to the Pearson product-moment correlation that is less sensitive to outliers. We also conduct spectral and spectral coherency analyses using a multi-taper approach \citep{Thomson:1982,Chave:etal1987,Mann:Lees1996,Czaja:Marshall2001,Huybers:2004} with significance levels estimated using a non-parametric Monte Carlo procedure with red noise (AR1) conditioned on the original data. Smoothing of time series by a 10-year lowess linear fit was applied to emphasize low frequency features in various time plots.
+
+\section{Results}
+\subsection{Climate Signals in the OWDA}
+\noindent Correlations between winter (January--March; JFM) and spring (April--June) precipitation and the tree-ring reconstructed JJA scPDSI are uniformly positive across the basin (Figure 2). The strongest correlations with JFM precipitation are localized in Spain and Morocco in the western Mediterranean and the Levant region in the eastern basin.  MAM precipitation correlations are more uniform and strongly positive across nearly the entire Mediterranean, suggesting that the summer season soil moisture variability, reflected in the OWDA and the underlying tree growth, is driven primarily by spring precipitation \citep[c.f.][]{Touchan:etal2014a}.
+
+\indent Climate mode correlations with the CRU precipitation data or the OWDA scPDSI (Figure 3) are consistent in sign, but generally stronger in the precipitation data. The weaker OWDA scPDSI correlations are expected for at last two reasons. First, these climate modes reflect shifts in atmospheric circulation that have a direct impact on precipitation by modulating, for example, storm track positions and moisture convergence. Circulation impacts on the scPDSI will be by definition more indirect, as the scPDSI is computed based on departures of a variety of variables from climatologically expected values (e.g., soil moisture). Additionally, up to year 1978, the scPDSI is reconstructed as a scaled linear function of the underlying tree-ring proxies, meaning that (for this period) the climate mode signal may be further obfuscated due to various biological processes (e.g., tree physiology, phenology, etc).
+
+\indent The influence of the NAO is strongest in winter and early spring (January--April; JFMA). Positive phases of the NAO cause drying across the northern reaches of the Mediterranean basin, from Spain and Morocco across to the Balkans and western Turkey, while favoring wetter conditions in coastal regions of Libya, Egypt, and the Levant.  Consistent with both the instrumental observations \citep[e.g.][]{Lamb:etal1997,Knippertz:etal2003} and the underlying controls on tree growth \citep{Touchan:etal2008a,Touchan:etal2008b,Panayotov:etal2010}, the influence of the NAO in the OWDA is strongest in the far western part of the domain and the Balkans. The largest influence of the SCA pattern is during the winter (JFM), with positive phases increasing moisture across most of the basin. The SCA correlation with the OWDA is substantially weaker, consistent with previously analyses (Figure 2) demonstrating the much stronger connection between the OWDA and spring season, rather than winter, precipitation. Unlike the previous two modes, the influence of the EA is highest during the spring (AMJ), causing widespread drying across the basin with, notably, similar magnitude correlations with both precipitation and scPDSI.
+
+\subsection{Drought Variability in the OWDA}
+\noindent Figure 4 shows OWDA scPDSI averaged over the Mediterranean domain and the fractional land area in drought (scPDSI$\le-1$) for each year from 1100--2012. Inter-annual variability (standard deviation) in the scPDSI is 0.54 standardized PDSI units and, on average, 29\% of the basin experiences drought conditions in any given year. Highlighted are several example periods of persistent multi-year droughts and pluvials (Figure 4, grey bars). Noticeably absent are any extended multi-decadal (30-year or longer) `megadrought' periods, a characteristic feature of North American drought variability during the Medieval Climate Anomaly (approximately before 1300 CE) \citep[e.g.,][]{CookER2010b} as well as previously inferred from Moroccan tree-rings \citep{Esper:etal2007a}.
+
+\indent The spatial expression of the six highlighted periods of widespread drought (and one pluvial) are shown in Figure 5. The most dramatic wet interval was a nearly two-decade long period from 1125--1142 CE, with sustained wet conditions in modern day Spain, Morocco, Algeria, Tunisia, Italy, the Balkans, and Turkey. Among the five highlighted persistent drought events, there is a tendency for simultaneous drought in the extreme western (Spain, Morocco, Algeria, Tunisia) and eastern (Balkans, Greece, Turkey) ends of the basin. This is somewhat contrary to previous analyses of other proxy records in the region, which have suggested instead a tendency for an anti-phased dipole in hydroclimate variability between these two regions \citep[e.g.,][]{Roberts:etal2012}. The basin-wide synchrony found in these example events is further confirmed by compositing all years when at least 40\% or 50\% of the basin is in drought (Figure 6). Here, again, we can see the major poles of synchronous and severe drought during these years of widespread drought are centered over the opposite ends of the basin. In these events and composite, however, there is some evidence for anti-phasing in the eastern end of the basin, where there is a tendency for Libya, Egypt and the southern Levant to be wet or near normal when Greece and Anatolia are in drought. This meridional dipole structure bears some resemblance to the NAO correlation patterns with precipitation and scPDSI (Figure 3).
+
+\subsection{Spatial Synchrony}
+\noindent To further investigate the tendency for synchronous hydroclimate variability across the basin, we averaged scPDSI from the OWDA over two regions: the western Mediterranean (WestMED; 32\textsuperscript{o}N--42\textsuperscript{o}N, 10\textsuperscript{o}W--0\textsuperscript{o}E) and the eastern Mediterranean (EastMED; 36\textsuperscript{o}N--41\textsuperscript{o}N, 20\textsuperscript{o}E--37\textsuperscript{o}E). The areas chosen for these regional indices correspond to approximately the same areas used in the analysis of \cite{Roberts:etal2012}. Point-by-point correlations (Figure 7) between these two indices and the OWDA are strongly positive at the local level, as expected, decaying in magnitude outside of the averaging regions. For WestMED the correlations remain mostly positive, or near zero, across the entire basin, while the strong negative correlations with EastMED over Libya, Egypt, and the Levant provide further support for the existence of anti-phased hydroclimate behavior in these regions. Correlations between these indices and the opposite regions are only weakly positive, suggesting very weak coherency between WestMED and EastMED on inter-annual time scales.
+
+\indent Frequency analyses of WestMED and EastMED show ignificant power in both series at high (inter-annual) and low (decadal to multidecadal) frequencies (Figure 8). Both have significant peaks at about 3--4 years, with EastMED additionally peaking at decadal frequencies and WestMED covering a broader range of multi-decadal bands. The two regions also overlap in their power at around 70 years, though EastMED is only marginally significant at the 90\textsuperscript{th} percentile. A coherency spectra analysis between the two regional indices demonstrates highly significant coherence between the two regions over inter-annual and decadal timescales (Figure 9). Notably, there is also a broad band of coherence between the two region at multi-decadal and centennial timescales (30 to 130 years), despite no significant spectral peaks at wavelengths longer than $\sim$75 years in either WestMED or EastMED. This may be due to aliasing of shared frequencies: both series have peaks at around 70-75 years, approximately the first harmonic of the 130 year coherence reflected in the coherency spectra. Regardless, these results indicate that, at least over the last millennium, a reasonably strong tendency for in-phase drought across the Mediterranean, in sharp contrast to the inferences made by \citet{Roberts:etal2012}.
+
+\subsection{Recent Droughts}
+\noindent Recent decades have witnessed persistent, multi-year droughts in the Mediterranean that have spurred speculation that warming induced drying trends may have begun to emerge. In the OWDA, these droughts are not coherent across the Mediterranean basin but are, instead, highly localized in the WestMED region, Greece (36\textsuperscript{o}N--43\textsuperscript{o}N, 19\textsuperscript{o}E--26\textsuperscript{o}), and the Levant (30\textsuperscript{o}N--37\textsuperscript{o}N, 33\textsuperscript{o}E--40\textsuperscript{o}E) (Figure 10). Both WestMED and Greece experienced significant droughts in the 1980s and 1990s that have since ameliorated. The driest period in the Levant, by contrast, began in 1998, and has been generally ongoing since. Here, we attempt to place these most recent drought events within the context of OWDA drought variability for the last 900 years (Figure 11).
+
+\indent Over the last 30 years (1980--2012), we identify major periods of persistent drought in all three of these regions: 1980--2009 (WestMED), 1984--2002 (Greece), and 1998--2012 (Levant) (Figure 12, black dots). For each region, we then calculate the driest previous interval of the same length (Figure 12, grey dots). For both of these intervals, we estimate sampling uncertainties (the whiskers) using a Monte-Carlo procedure where we resample drought years from each interval with replacement, recalculating the mean scPDSI 10,000 times. The whiskers represent the 25\textsuperscript{th} and 75\textsuperscript{th} percentiles of these resampled means.
+
+\indent In general agreement with \citet{Touchan:etal2008a}, the recent persistent droughts in WestMED and Greece qualify as the most severe on the record. In both regions, however, there is substantial overlap in the uncertainties, and the recent droughts are not significantly drier (Student's t-test and Wilcoxon rank sum test, $p>0.10$) than the previous driest intervals. From this, we conclude that, while severe, recent droughts in the WestMED region and Greece are not statistically separable from natural drought variability over the last 900 years.
+
+\indent The magnitude of the recent Levant drought also exceeds the magnitude of the driest previous interval in the region. In the Levant, mean scPDSI for 1998--2012 is $-1.52$, compared to $-1.1$ for 1205--1219, with non-overlapping confidence limits between the two events. Despite this separation, 1998--2012 is not significantly drier than the previous driest period (One-Sided Student's t-test, $p=0.13$). This is likely due to the leveraging of the mean scPDSI for 1998--2012 by several extremely dry years: 1999 (scPDSI$=-3.25$), 2000 (scPDSI$=-4.49$, the driest single year in this region back to 1100), 2008 (scPDSI$=-2.80$), and 2012 (scPDSI$=-2.72$). In our 89\% of our Monte-Carlo simulations, however, the resampled mean scPDSI for 1998--2012 was drier than the resampled mean for the previous driest interval, 1205--1219. We therefore conclude that it is likely that 1998--2012 in the Levant was the driest 15-year period of the last 900 years, suggesting the possible emergence of a greenhouse gas forced drying signal.
+%1) Means for 1980--2012: WestMED=-0.54 (exceed 97th; period beginning 1779 driest), Greece=-0.53 (exceed 98th; period beginning 1595 driest), Levant=-1.01 (driest, 2nd driest period beginning 1484)
+%2) Means for 1990--2012: WestMED=-0.35, Greece=-0.54 (exceed 90th)), Levant=-1.37 (driest, 2nd driest period beginning 1486)
+
+\section{Discussion and Conclusions}
+\noindent Paleoclimate reconstructions provide better sampling of the full spectrum of natural variability in the climate system, variability that is often not adequately captured by the relatively short instrumental record. This knowledge is especially critical for identifying decadal and multidecadal variability and for evaluating the extent to which anthropogenic forcing may be influencing recent climate trends and events. But while a variety of local reconstruction efforts have been previously undertaken for the Mediterranean, field reconstructions provide an opportunity to understand natural and anthropogenic patterns at broader spatial and extended temporal scales.
+
+\indent Our analysis of the OWDA shows significant decadal to multi-decadal variability in hydroclimate across the Mediterranean, with significant coherence between the western and eastern basin centers on multi-decadal to centennial time scales. The dynamics driving this synchrony are still uncertain, but the NAO or processes linked to the North Atlantic are likely to be a major contributor to this pattern \citep{Hurrell:vanLoon1997,Eshel:Farrell2000}. The NAO mode is negatively correlated with precipitation and scPDSI across the basin (Figure 2) and at the decadal scale is associated with same-sign wet season (boreal winter) precipitation anomalies from Morocco and the Iberian Peninsula though western and central Anatolia, with opposing anomalies in the Levant \citep{Mariotti:etal2002,Xoplaki:etal2004}.
+
+While there is a zonal dipole in the Mediterranean tree-ring response to precipitation, with a stronger winter response to the west and an increasing spring-summer signal in the east \citep{Touchan:etal2014a,Touchan:etal2014b}, at decadal timescales at least the summer scPDSI does appear to reflect the broad-scale forcing of precipitation anomalies associated with the NAO. This creates a basin-wide coherence between northwestern Africa, the Balkans, and western Anatolia (Figure 9) and opposite sign anomalies in the Levant during major Mediterranean drought and pluvial events (Figure 5--7).  
+
+Interestingly, this coherent decadal pattern is somewhat different than that observed for recent scPDSI trends (Figure 10, 11), with the western Mediterranean and the Levant experiencing more substantial drying trends, and with mixed signs over Anatolia.  This suggests that NAO variability alone may not account for recent drought trends, and supports interpretations that greenhouse gas forcing has an important influence \citep{Kelley2012,Kelley2015,Seager2014med}.  Although some climate model simulations suggest recent NAO trends are outside the range of natural variability \citep{Osborn:2004,Kuzmina:etal2005}, long control simulations can demonstrate unforced NAO variability similar to that seen in recent decades \citep{Semenov:etal2008}.  Drying in the Levant is also likely influenced by recent trends toward a more positive EA pattern \citep{Krichak:etal2002,Krichak:etal2005,Lim:2014}.
+
+Our findings here suggest that, at least in the western Mediterranean and Anatolia, the recent severe decadal-scale dry conditions are not yet outside the range of natural variability, despite the influence of greenhouse gas forcing.  In the Levant, however, we estimate that the last 15 years are likely the driest since the 12\textsuperscript{th} century. Drought conditions here reduce water supply in the face of increasing demand, and create the potential for sociopolitical and economic disruption \citep[e.g.][]{Gleick2014,Kelley2015}, requiring a multidisciplinary research, management, and policy approach \citep{SolhvanGinkel2014}. To that end, paleoclimate field reconstructions of drought can provide valuable information on the long-term and broad-scale context of recent events, especially how they fit within the context of natural climate variability.
+
+%----------------------------------------------------------------------------------------
+%	APPENDICES (OPTIONAL)
+%----------------------------------------------------------------------------------------
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Optional Appendix goes here
+
+% \appendix resets counters and redefines section heads
+% but doesn't print anything.
+% After typing  \appendix
+
+% \section{Here Is Appendix Title}
+% will show
+% Appendix A: Here Is Appendix Title
+
+%\appendix
+
+%\section{Appendix Title}
+
+
+%----------------------------------------------------------------------------------------
+%	GLOSSARY OR NOTATION (OPTIONAL)
+%----------------------------------------------------------------------------------------
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% Optional Glossary or Notation section, goes here
+%
+%%%%%%%%%%%%%%
+% Glossary is only allowed in Reviews of Geophysics
+% \section*{Glossary}
+% \paragraph{Term}
+% Term Definition here
+%
+%%%%%%%%%%%%%%
+% Notation -- End each entry with a period.
+% \begin{notation}
+% Term & definition.\\
+% Second term & second definition.\\
+% \end{notation}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	ACKNOWLEDGEMENTS
+%----------------------------------------------------------------------------------------
+
+\begin{acknowledgments}
+Funding for Anchukaitis, Meko, and Toucan provided by NSF Earth System History Grant \#ESH0317288. Lamont contribution \#.
+\end{acknowledgments}
+
+%----------------------------------------------------------------------------------------
+%	BIBLIOGRAPHY
+%----------------------------------------------------------------------------------------
+
+% Either type in your references using
+% \begin{thebibliography}{}
+% \bibitem{}
+% Text
+% \end{thebibliography}
+
+% Or,
+
+% If you use BiBTeX for your references, please use the agufull08.bst file (available at % ftp://ftp.agu.org/journals/latex/journals/Manuscript-Preparation/) to produce your .bbl
+% file and copy the contents into your paper here.
+
+% Follow these steps:
+% 1. Run LaTeX on your LaTeX file.
+
+% 2. Make sure the bibliography style appears as \bibliographystyle{agufull08}. Run BiBTeX on your LaTeX
+% file.
+
+% 3. Open the new .bbl file containing the reference list and
+%   copy all the contents into your LaTeX file here.
+
+% 4. Comment out the old \bibliographystyle and \bibliography commands.
+
+% 5. Run LaTeX on your new file before submitting.
+
+% AGU does not want a .bib or a .bbl file. Please copy in the contents of your .bbl file here.
+
+\bibliographystyle{agufull08}
+\bibliography{/Users/bcook/Dropbox/LATEX/mylib.bib}   % name your BibTeX data base
+
+
+
+
+
+%\begin{thebibliography}{}
+
+%\providecommand{\natexlab}[1]{#1}
+%\expandafter\ifx\csname urlstyle\endcsname\relax
+ % \providecommand{\doi}[1]{doi:\discretionary{}{}{}#1}\else
+ % \providecommand{\doi}{doi:\discretionary{}{}{}\begingroup
+ % \urlstyle{rm}\Url}\fi
+
+%\bibitem[{\textit{Atkinson and Sloan}(1991)}]{AtkinsonSloan}
+%Atkinson, K., and I.~Sloan (1991), The numerical solution of first-kind
+ % logarithmic-kernel integral equations on smooth open arcs, \textit{Math.
+ % Comp.}, \textit{56}(193), 119--139.
+
+%\bibitem[{\textit{Colton and Kress}(1983)}]{ColtonKress1}
+%Colton, D., and R.~Kress (1983), \textit{Integral Equation Methods in
+%  Scattering Theory}, John Wiley, New York.
+
+%\bibitem[{\textit{Hsiao et~al.}(1991)\textit{Hsiao, Stephan, and
+ % Wendland}}]{StephanHsiao}
+%Hsiao, G.~C., E.~P. Stephan, and W.~L. Wendland (1991), On the {D}irichlet
+ % problem in elasticity for a domain exterior to an arc, \textit{J. Comput.
+ % Appl. Math.}, \textit{34}(1), 1--19.
+
+%\bibitem[{\textit{Lu and Ando}(2012)}]{LuAndo}
+%Lu, P., and M.~Ando (2012), Difference of scattering geometrical optics
+ % components and line integrals of currents in modified edge representation,
+  %\textit{Radio Sci.}, \textit{47},  RS3007, \doi{10.1029/2011RS004899}.
+
+%\end{thebibliography}
+
+% Reference citation examples:
+
+%...as shown by \textit{Kilby} [2008].
+%...as shown by {\textit  {Lewin}} [1976], {\textit  {Carson}} [1986], {\textit  {Bartholdy and Billi}} [2002], and {\textit  {Rinaldi}} [2003].
+%...has been shown [\textit{Kilby et al.}, 2008].
+%...has been shown [{\textit  {Lewin}}, 1976; {\textit  {Carson}}, 1986; {\textit  {Bartholdy and Billi}}, 2002; {\textit  {Rinaldi}}, 2003].
+%...has been shown [e.g., {\textit  {Lewin}}, 1976; {\textit  {Carson}}, 1986; {\textit  {Bartholdy and Billi}}, 2002; {\textit  {Rinaldi}}, 2003].
+
+%...as shown by \citet{jskilby}.
+%...as shown by \citet{lewin76}, \citet{carson86}, \citet{bartoldy02}, and \citet{rinaldi03}.
+%...has been shown \citep{jskilbye}.
+%...has been shown \citep{lewin76,carson86,bartoldy02,rinaldi03}.
+%...has been shown \citep [e.g.,][]{lewin76,carson86,bartoldy02,rinaldi03}.
+
+% Please use ONLY \citet and \citep for reference citations.
+% DO NOT use other cite commands (e.g., \cite, \citeyear, \nocite, \citealp, etc.).
+
+\end{article}
+
+%----------------------------------------------------------------------------------------
+%	FIGURES AND TABLES
+%----------------------------------------------------------------------------------------
+
+%% Enter Figures and Tables here:
+%
+% DO NOT USE \psfrag or \subfigure commands.
+%
+% Figure captions go below the figure.
+% Table titles go above tables; all other caption information should be placed in footnotes below the table.
+%
+%----------------
+% EXAMPLE FIGURE
+%
+% \begin{figure}
+% \noindent\includegraphics[width=20pc]{samplefigure.eps}
+% \caption{Caption text here}
+% \label{figure_label}
+% \end{figure}
+%
+% ---------------
+% EXAMPLE TABLE
+%
+%\begin{table}
+%\caption{Time of the Transition Between Phase 1 and Phase 2\tablenotemark{a}}
+%\centering
+%\begin{tabular}{l c}
+%\hline
+% Run  & Time (min)  \\
+%\hline
+%  $l1$  & 260   \\
+%  $l2$  & 300   \\
+%  $l3$  & 340   \\
+%  $h1$  & 270   \\
+%  $h2$  & 250   \\
+%  $h3$  & 380   \\
+%  $r1$  & 370   \\
+%  $r2$  & 390   \\
+%\hline
+%\end{tabular}
+%\tablenotetext{a}{Footnote text here.}
+%\end{table}
+
+% See below for how to make sideways figures or tables.
+
+\newpage
+
+\begin{figure}
+\center
+\includegraphics[width=1.0\columnwidth]{fig_01_map_sites.png}
+\caption{Locations of tree-ring chronologies used for the Mediterranean portion of the Old World Drought Atlas. Colors indicate the start dates of the various chronologies.}\label{placeholder}
+\end{figure}
+
+\begin{figure}
+\center
+\includegraphics[width=0.9\columnwidth]{fig_02_corr_owda_prec_MED1.png}
+\caption{Point-by-point Spearman's rank correlation coefficients between CRU 3.21 precipitation totals (JFM and AMJ) and OWDA summer season (JJA) scPDSI. Correlations are calculated over the period 1950--2012 CE.}\label{placeholder}
+\end{figure}
+
+\begin{figure}
+\center
+\includegraphics[width=1.0\columnwidth]{fig_03_teleconn_corr_MED1.png}
+\caption{Spearman's rank correlation coefficients between the teleconnection indices (NAO, SCA, EA) and simultaneous season CRU 3.21 precipitation totals (left column) and OWDA summer season scPDSI (right column). Correlations are calculated over the period 1950--2012 CE.}\label{placeholder}
+\end{figure}
+
+\begin{figure}
+\center
+\includegraphics[width=1.0\columnwidth]{fig_04_ave_area_pdsi_MED1.png}
+\caption{Area average scPDSI for the entire Mediterranean domain in the OWDA (30\textsuperscript{o}N--47\textsuperscript{o}N, 10\textsuperscript{o}W--45\textsuperscript{o}E) (top) and percent land area in drought (scPDSI$\le-1$) (bottom) from 1100--2012 CE. Red curves are smoothed versions of the time series using a 10-year loess spline. The horizontal line in the lower panel is the long-term average fractional area in drought from 1100--2012 CE (29\%). Highlighted in grey are several example period of persistent pan-basin drought and pluvial events (see Figure 5).}\label{placeholder}
+\end{figure}
+
+\begin{figure}
+\center
+\includegraphics[width=1.0\columnwidth]{fig_05_drght_pluv_events.png}
+\caption{Multi-year average scPDSI for different pan-basin drought and pluvial events in the OWDA.}\label{placeholder}
+\end{figure}
+
+\begin{figure}
+\center
+\includegraphics[width=0.9\columnwidth]{fig_06_pdsi_40_50_composite.png}
+\caption{Composite average of Mediterranean drought events in the OWDA with a drought area (scPDSI$\le-1$) exceeding 40\% ($n=$168 years) and 50\% ($n=$45 years) of the total land area in the Mediterranean domain.}\label{placeholder}
+\end{figure}
+
+\begin{figure}
+\center
+\includegraphics[width=0.9\columnwidth]{fig_07_east_west_corrmap.png}
+\caption{Point-by-point Spearman's rank correlations (1100--2012) between OWDA scPDSI and the Western Mediterranean (WestMED; 32\textsuperscript{o}N--42\textsuperscript{o}N, 10\textsuperscript{o}W--0\textsuperscript{o}) and Eastern Mediterranean (EastMED; 36\textsuperscript{o}N--41\textsuperscript{o}N, 20\textsuperscript{o}E--37\textsuperscript{o}E) regional average scPDSI time series.}\label{placeholder}
+\end{figure}
+
+\begin{figure}
+\center
+\includegraphics[width=1.0\columnwidth]{fig_08_eastwest_mtm_spectra.png}
+\caption{Power spectral density (Multi-taper Method, 3 tapers) for the WestMED and EastMED regional average scPDSI series. Red and black dashed lines are the 95\textsuperscript{th} and 90\textsuperscript{th} confidence limits, respectively, estimated from 10,000 AR(1) series generated from the original time series.}\label{placeholder}
+\end{figure}
+
+\begin{figure}
+\center
+\includegraphics[width=0.9\columnwidth]{fig_09_eastwest_cohere.png}
+\caption{Smoothed versions (10-year loess spline) of the WestMED and EastMED time series (top) and the coherency spectra between the two unsmoothed series (bottom).}\label{placeholder}
+\end{figure}
+
+\begin{figure}
+\center
+\includegraphics[width=1.0\columnwidth]{fig_10_map_bar_pdsi.png}
+\caption{Multi-year average scPDSI for 1980--2012 (top) with regions of recent and persistent drought outlined in dashed black lines: WestMED (32\textsuperscript{o}N--42\textsuperscript{o}N, 10\textsuperscript{o}W--0\textsuperscript{o}), Greece (36\textsuperscript{o}N--43\textsuperscript{o}N, 19\textsuperscript{o}E--26\textsuperscript{o}), and the Levant (30\textsuperscript{o}N--37\textsuperscript{o}N, 33\textsuperscript{o}E--40\textsuperscript{o}E). Also shown (bottom) are the regional average scPDSI time series from these regions for 1950--2012 (red line is a 10-year loess smoother).}\label{placeholder}
+\end{figure}
+
+\begin{figure}
+\center
+\includegraphics[width=0.9\columnwidth]{fig_11_regional_series_MED1.png}
+\caption{Re-centered (zero mean from 1100--2012 CE) time series for WestMED, Greece, and the Levant region. Red lines represent smoothed versions using a 10-year loess smoother.}\label{placeholder}
+\end{figure}
+
+\begin{figure}
+\center
+\includegraphics[width=1.0\columnwidth]{fig_12_pdsi_boxplot.png}
+\caption{Comparisons between multi-year average re-centered scPDSI during recent decades (black dots) and driest previous periods of the same length in the OWDA from 1100--2012 CE. Grey bars are the interquartile range of mean PDSI for all such periods, grey dots represent the driest period prior to the recent decades, and black dots are the mean PDSI for the most recent drought. Whiskers are the 25\textsuperscript{th} and 75\textsuperscript{th} confidence limits for the dry events, estimated from 10,000 resamplings with replacement from scPDSI values during these intervals.}\label{placeholder}
+\end{figure}
+
+%\begin{table}
+%\caption{Table caption}\label{sampletable}
+%\begin{tabular}{l l l}
+%\hline
+%\textbf{Treatments} & \textbf{Response 1} & \textbf{Response 2}\\
+%\hline
+%Treatment 1 & 0.0003262 & 0.562 \\
+%Treatment 2 & 0.0015681 & 0.910 \\
+%Treatment 3 & 0.0009271 & 0.296 \\
+%\hline
+%\end{tabular}
+%\end{table}
+
+\end{document}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+%% ------------------------------------------------------------------------ %%
+%
+%  SECTION HEADS
+%
+%% ------------------------------------------------------------------------ %%
+
+% Capitalize the first letter of each word (except for
+% prepositions, conjunctions, and articles that are
+% three or fewer letters).
+
+% AGU follows standard outline style; therefore, there cannot be a section 1 without
+% a section 2, or a section 2.3.1 without a section 2.3.2.
+% Please make sure your section numbers are balanced.
+% ---------------
+% Level 1 head
+%
+% Use the \section{} command to identify level 1 heads;
+% type the appropriate head wording between the curly
+% brackets, as shown below.
+%
+%An example:
+%\section{Level 1 Head: Introduction}
+%
+% ---------------
+% Level 2 head
+%
+% Use the \subsection{} command to identify level 2 heads.
+%An example:
+%\subsection{Level 2 Head}
+%
+% ---------------
+% Level 3 head
+%
+% Use the \subsubsection{} command to identify level 3 heads
+%An example:
+%\subsubsection{Level 3 Head}
+%
+%---------------
+% Level 4 head
+%
+% Use the \subsubsubsection{} command to identify level 3 heads
+% An example:
+%\subsubsubsection{Level 4 Head} An example.
+%
+%% ------------------------------------------------------------------------ %%
+%
+%  IN-TEXT LISTS
+%
+%% ------------------------------------------------------------------------ %%
+%
+% Do not use bulleted lists; enumerated lists are okay.
+% \begin{enumerate}
+% \item
+% \item
+% \item
+% \end{enumerate}
+%
+%% ------------------------------------------------------------------------ %%
+%
+%  EQUATIONS
+%
+%% ------------------------------------------------------------------------ %%
+
+% Single-line equations are centered.
+% Equation arrays will appear left-aligned.
+
+Math coded inside display math mode \[ ...\]
+ will not be numbered, e.g.,:
+ \[ x^2=y^2 + z^2\]
+
+ Math coded inside \begin{equation} and \end{equation} will
+ be automatically numbered, e.g.,:
+ \begin{equation}
+ x^2=y^2 + z^2
+ \end{equation}
+
+% IF YOU HAVE MULTI-LINE EQUATIONS, PLEASE
+% BREAK THE EQUATIONS INTO TWO OR MORE LINES
+% OF SINGLE COLUMN WIDTH (20 pc, 8.3 cm)
+% using double backslashes (\\).
+
+% To create multiline equations, use the
+% \begin{eqnarray} and \end{eqnarray} environment
+% as demonstrated below.
+\begin{eqnarray}
+  x_{1} & = & (x - x_{0}) \cos \Theta \nonumber \\
+        && + (y - y_{0}) \sin \Theta  \nonumber \\
+  y_{1} & = & -(x - x_{0}) \sin \Theta \nonumber \\
+        && + (y - y_{0}) \cos \Theta.
+\end{eqnarray}
+
+%If you don't want an equation number, use the star form:
+%\begin{eqnarray*}...\end{eqnarray*}
+
+% Break each line at a sign of operation
+% (+, -, etc.) if possible, with the sign of operation
+% on the new line.
+
+% Indent second and subsequent lines to align with the first character following the equal sign on the first line.
+
+% Use an \hspace{} command to insert horizontal space into your equation if necessary. Place an appropriate unit of measure between the curly braces, e.g. \hspace{1in}; you may have to experiment to achieve the correct amount of space.
+
+
+%% ------------------------------------------------------------------------ %%
+%
+%  EQUATION NUMBERING: COUNTER
+%
+%% ------------------------------------------------------------------------ %%
+
+% You may change equation numbering by resetting
+% the equation counter or by explicitly numbering
+% an equation.
+
+% To explicitly number an equation, type \eqnum{}
+% (with the desired number between the brackets)
+% after the \begin{equation} or \begin{eqnarray}
+% command.  The \eqnum{} command will affect only
+% the equation it appears with; LaTeX will number
+% any equations appearing later in the manuscript
+% according to the equation counter.
+%
+
+% If you have a multiline equation that needs only
+% one equation number, use a \nonumber command in
+% front of the double backslashes (\\) as shown in
+% the multiline equation above.
+
+%% ------------------------------------------------------------------------ %%
+%
+%  SIDEWAYS FIGURE AND TABLE EXAMPLES
+%
+%% ------------------------------------------------------------------------ %%
+%
+% For tables and figures, add \usepackage{rotating} to the paper and add the rotating.sty file to the folder.
+% AGU prefers the use of {sidewaystable} over {landscapetable} as it causes fewer problems.
+%
+% \begin{sidewaysfigure}
+% \includegraphics[width=20pc]{samplefigure.eps}
+% \caption{caption here}
+% \label{label_here}
+% \end{sidewaysfigure}
+%
+% \begin{sidewaystable}
+% \caption{}
+% \begin{tabular}
+% Table layout here.
+% \end{tabular}
+% \end{sidewaystable}

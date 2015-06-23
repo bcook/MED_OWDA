@@ -15,7 +15,7 @@ clc
 L = [-6 -5 -4 -3 -2 -1 0 1 2 3 4 5 6]./2; 
 
 % If =1, save figure file
-save_figure=1;
+save_figure=0;
 
 %% Figure parameters
 
@@ -475,6 +475,9 @@ bndry_lon=[lonmin lonmax lonmax lonmin lonmin];bndry_lat=[latmin latmin latmax l
 m_line(bndry_lon,bndry_lat,'linewidth',2.5,'color',[0 0 0],'linestyle','--');
 % Levant Box
 lonmin=33; lonmax=40; latmin=30; latmax=37; % Updated Levant Region (levant3)
+bndry_lon=[lonmin lonmax lonmax lonmin lonmin];bndry_lat=[latmin latmin latmax latmax latmin];
+% MIDEAST Box
+lonmin=33; lonmax=47; latmin=30; latmax=37; % Updated Levant Region (levant3)
 bndry_lon=[lonmin lonmax lonmax lonmin lonmin];bndry_lat=[latmin latmin latmax latmax latmin];
 m_line(bndry_lon,bndry_lat,'linewidth',2.5,'color',[0 0 0],'linestyle','--');
 caxis([min(L) max(L)]);

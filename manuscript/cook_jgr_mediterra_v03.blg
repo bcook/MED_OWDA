@@ -1,47 +1,47 @@
-This is BibTeX, Version 0.99d (TeX Live 2014)
+This is BibTeX, Version 0.99d (TeX Live 2011)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: cook_jgr_mediterra_v03.aux
 The style file: agufull08.bst
 Database file #1: /Users/bcook/Dropbox/LATEX/mylib.bib.bib
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
-You've used 61 entries,
+You've used 65 entries,
             3076 wiz_defined-function locations,
-            1546 strings with 24494 characters,
-and the built_in function-call counts, 62403 in all, are:
-= -- 6832
-> -- 2304
-< -- 21
-+ -- 1014
-- -- 643
-* -- 4082
-:= -- 6000
-add.period$ -- 61
-call.type$ -- 61
-change.case$ -- 259
-chr.to.int$ -- 62
-cite$ -- 61
-duplicate$ -- 6867
-empty$ -- 3450
-format.name$ -- 833
-if$ -- 12416
+            1577 strings with 25426 characters,
+and the built_in function-call counts, 66929 in all, are:
+= -- 7365
+> -- 2441
+< -- 22
++ -- 1084
+- -- 681
+* -- 4367
+:= -- 6404
+add.period$ -- 65
+call.type$ -- 65
+change.case$ -- 276
+chr.to.int$ -- 66
+cite$ -- 65
+duplicate$ -- 7375
+empty$ -- 3691
+format.name$ -- 885
+if$ -- 13318
 int.to.chr$ -- 3
 int.to.str$ -- 1
-missing$ -- 679
-newline$ -- 190
-num.names$ -- 244
-pop$ -- 2267
+missing$ -- 722
+newline$ -- 202
+num.names$ -- 260
+pop$ -- 2440
 preamble$ -- 1
-purify$ -- 195
+purify$ -- 208
 quote$ -- 0
-skip$ -- 3742
+skip$ -- 4029
 stack$ -- 0
-substring$ -- 2631
-swap$ -- 5884
+substring$ -- 2848
+swap$ -- 6339
 text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 549
+type$ -- 585
 warning$ -- 0
-while$ -- 318
+while$ -- 340
 width$ -- 0
-write$ -- 732
+write$ -- 780

@@ -13,14 +13,16 @@ save_figure = 1;
 yrs_corr = [1100 2012]; 
 
 %% Load Time Series Data
-load ../data/pdsi.fix.MED_1.WESTMED.recenter1.mat; westmed=ave_pdsi;
-load ../data/pdsi.fix.MED_1.EASTMED.recenter1.mat; eastmed=ave_pdsi;
+load ../data/pdsi.fix.MED_1.WESTMED.recenter1.mat;      westmed=ave_pdsi;
+load ../data/pdsi.fix.MED_1.EASTMED.recenter1.mat;      eastmed=ave_pdsi;
+load ../data/pdsi.fix.MED_1.MIDEASTSMALL.recenter1.mat; mideast=ave_pdsi;
 
 % Trim Years to time range I want to correlate.
 i_yrs_index = find(yr_owda_reg>=yrs_corr(1) & yr_owda_reg<=yrs_corr(end));
 
 eastmed = eastmed(i_yrs_index);
 westmed = westmed(i_yrs_index);
+mideast = mideast(i_yrs_index);
 
 %% Load the Gridded Mediterranean subset of OWDA PDSI data
 load ../data/subset.owda.fix.MED_1.1000-2012.mat
@@ -40,6 +42,9 @@ for i_lon = 1:length(lon_reg)
         
         [r_east(i_lat,i_lon),p_east(i_lat,i_lon)] = corr(pdsi_seas(:,i_lat,i_lon),...
             eastmed,'type','Spearman');        
+
+        [r_mideast(i_lat,i_lon),p_mideast(i_lat,i_lon)] = corr(pdsi_seas(:,i_lat,i_lon),...
+            mideast,'type','Spearman');  
         
     end
 end
@@ -100,6 +105,11 @@ m_line(bndry_lon,bndry_lat,'linewidth',2.5,'color',[0 0 0],'linestyle','--');
 lonmin=20; lonmax=37; latmin=36; latmax=41; % smaller area
 bndry_lon=[lonmin lonmax lonmax lonmin lonmin];bndry_lat=[latmin latmin latmax latmax latmin];
 m_line(bndry_lon,bndry_lat,'linewidth',2.5,'color',[0 0 0],'linestyle','--');
+% MidEastSmall Box
+lonmin=33; lonmax=47; latmin=30; latmax=34; % smaller area
+bndry_lon=[lonmin lonmax lonmax lonmin lonmin];bndry_lat=[latmin latmin latmax latmax latmin];
+m_line(bndry_lon,bndry_lat,'linewidth',2.5,'color',[0 0 0],'linestyle','--');
+
 caxis([min(L_color) max(L_color)]);
 colorbar1 = colorbar('FontName','arial',...
                 'FontSize',18,...
@@ -134,6 +144,11 @@ m_line(bndry_lon,bndry_lat,'linewidth',2.5,'color',[0 0 0],'linestyle','--');
 lonmin=20; lonmax=37; latmin=36; latmax=41; % smaller area
 bndry_lon=[lonmin lonmax lonmax lonmin lonmin];bndry_lat=[latmin latmin latmax latmax latmin];
 m_line(bndry_lon,bndry_lat,'linewidth',2.5,'color',[0 0 0],'linestyle','--');
+% MidEastSmall Box
+lonmin=33; lonmax=47; latmin=30; latmax=34; % smaller area
+bndry_lon=[lonmin lonmax lonmax lonmin lonmin];bndry_lat=[latmin latmin latmax latmax latmin];
+m_line(bndry_lon,bndry_lat,'linewidth',2.5,'color',[0 0 0],'linestyle','--');
+
 caxis([min(L_color) max(L_color)]);
 colorbar1 = colorbar('FontName','arial',...
                 'FontSize',18,...
@@ -148,6 +163,46 @@ set(gcf,'PaperPositionMode','auto')
 if save_figure==1
   print('-depsc','-painters',['../figures/fig07/corr.eastMED.owda.' num2str(min(yrs_corr)) '-' num2str(max(yrs_corr)) '.eps'])
 end
+
+%% MidEast MED Figure
+figure
+hold on
+colormap(cmap)
+m_proj(proj_name, 'lon', lonlim,'lat', latlim);
+h=m_pcolor(lon_reg-0.25,lat_reg-0.25,r_mideast); set(h,'LineStyle','none');
+m_grid('linestyle', 'none','fontsize',14,'fontname','arial',...
+     'xticklabels',[],'yticklabels',[],...
+     'FontWeight','bold');
+m_plot(M_coast.x,M_coast.y,'LineWidth',2,'Color',[0 0 0])
+m_plot(M_country.x,M_country.y,'LineWidth',1,'Color',[0 0 0])
+% West Med Box
+lonmin=-10; lonmax=0; latmin=32; latmax=42; % smaller area
+bndry_lon=[lonmin lonmax lonmax lonmin lonmin];bndry_lat=[latmin latmin latmax latmax latmin];
+m_line(bndry_lon,bndry_lat,'linewidth',2.5,'color',[0 0 0],'linestyle','--');
+% Eastern Med Box
+lonmin=20; lonmax=37; latmin=36; latmax=41; % smaller area
+bndry_lon=[lonmin lonmax lonmax lonmin lonmin];bndry_lat=[latmin latmin latmax latmax latmin];
+m_line(bndry_lon,bndry_lat,'linewidth',2.5,'color',[0 0 0],'linestyle','--');
+% MidEastSmall Box
+lonmin=33; lonmax=47; latmin=30; latmax=34; % smaller area
+bndry_lon=[lonmin lonmax lonmax lonmin lonmin];bndry_lat=[latmin latmin latmax latmax latmin];
+m_line(bndry_lon,bndry_lat,'linewidth',2.5,'color',[0 0 0],'linestyle','--');
+
+caxis([min(L_color) max(L_color)]);
+colorbar1 = colorbar('FontName','arial',...
+                'FontSize',18,...
+                'FontWeight','bold',...  
+                'XLim',[-0.5 1.5],'LOCATION','EastOutside',...
+                'Ytick',L_color(1:length(L_color)),'YTicklabel',L_color(1:length(L_color)));
+titlestring=['r, MidEast vs OWDA']; 
+title(['\fontname{helvetica} \fontsize{30} \bf{' titlestring '}']);
+set(gcf,'Renderer','painters')
+set(gcf,'OuterPosition',[292   999   845   570])
+set(gcf,'PaperPositionMode','auto')
+if save_figure==1
+  print('-depsc','-painters',['../figures/fig07/corr.mideastsmall.owda.' num2str(min(yrs_corr)) '-' num2str(max(yrs_corr)) '.eps'])
+end
+
 
 
 

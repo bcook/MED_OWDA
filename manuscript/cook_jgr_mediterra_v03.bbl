@@ -1,4 +1,4 @@
-\begin{thebibliography}{61}
+\begin{thebibliography}{65}
 \providecommand{\natexlab}[1]{#1}
 \expandafter\ifx\csname urlstyle\endcsname\relax
   \providecommand{\doi}[1]{doi:\discretionary{}{}{}#1}\else
@@ -47,6 +47,13 @@ Chbouki, N., C.~W. Stockton, and D.~Myers (1995), {Spatio-temporal patterns of
   drought in {Morocco}}, \textit{International Journal of Climatology},
   \textit{15}, 187--205, \doi{DOI: 10.1002/joc.3370150205}.
 
+\bibitem[{\textit{Cook et~al.}(1999)\textit{Cook, Meko, Stahle, and
+  Cleaveland}}]{Cook1999}
+Cook, E.~R., D.~M. Meko, D.~W. Stahle, and M.~K. Cleaveland (1999), {Drought
+  reconstructions for the continental United States}, \textit{Journal of
+  Climate}, \textit{12}(4), 1145--1162,
+  \doi{http://dx.doi.org/10.1175/1520-0442(1999)012<1145:DRFTCU>2.0.CO;2}.
+
 \bibitem[{\textit{Cook et~al.}(2010)\textit{Cook, Seager, Heim~Jr, Vose,
   Herweijer, and Woodhouse}}]{CookER2010b}
 Cook, E.~R., R.~Seager, R.~R. Heim~Jr, R.~S. Vose, C.~Herweijer, and
@@ -55,11 +62,18 @@ Cook, E.~R., R.~Seager, R.~R. Heim~Jr, R.~S. Vose, C.~Herweijer, and
   \textit{Journal of Quaternary Science}, \textit{25}(1), 48--61,
   \doi{10.1002/jqs.1303}.
 
-\bibitem[{\textit{Cook et~al.}(in review)\textit{Cook, Seager, Kushnir, Briffa,
-  B{\"u}ntgen, Frank, Krusic et~al.}}]{CookOWDA2015}
+\bibitem[{\textit{Cook et~al.}(2013)\textit{Cook, Krusic, Anchukaitis, Buckley,
+  Nakatsuka, and Sano}}]{CookER2013}
+Cook, E.~R., P.~J. Krusic, K.~J. Anchukaitis, B.~M. Buckley, T.~Nakatsuka, and
+  M.~Sano (2013), {Tree-ring reconstructed summer temperature anomalies for
+  temperate East Asia since 800 C.E.}, \textit{Climate Dynamics},
+  \textit{41}(11-12), 2957--2972, \doi{10.1007/s00382-012-1611-x}.
+
+\bibitem[{\textit{Cook et~al.}(in revision)\textit{Cook, Seager, Kushnir,
+  Briffa, B{\"u}ntgen, Frank, Krusic et~al.}}]{CookOWDA2015}
 Cook, E.~R., R.~Seager, Y.~Kushnir, K.~R. Briffa, U.~B{\"u}ntgen, D.~Frank,
-  P.~J. Krusic, et~al. (in review), {Old World Droughts and Pluvials During the
-  Common Era}, \textit{{Science}}.
+  P.~J. Krusic, et~al. (in revision), {Old World Droughts and Pluvials During
+  the Common Era}, \textit{{Science Advances}}.
 
 \bibitem[{\textit{Czaja and Marshall}(2001)}]{Czaja:Marshall2001}
 Czaja, A., and J.~Marshall (2001), Observations of atmosphere-ocean coupling in
@@ -229,6 +243,18 @@ Lim, Y.-K. (2014), {The East Atlantic/West Russia ({EA}/{WR}) teleconnection in
 Mann, M.~E., and J.~M. Lees (1996), {Robust estimation of background noise and
   signal detection in climatic time series}, \textit{Clim. Change},
   \textit{33}(3), 409--445, \doi{10.1007/BF00142586}.
+
+\bibitem[{\textit{Maraun and Kurths}(2004)}]{Marauan2004}
+Maraun, D., and J.~Kurths (2004), Cross wavelet analysis: significance testing
+  and pitfalls, \textit{Nonlinear Processes in Geophysics}, \textit{11}(4),
+  505--514, \doi{10.5194/npg-11-505-2004}.
+
+\bibitem[{\textit{Maraun et~al.}(2007)\textit{Maraun, Kurths, and
+  Holschneider}}]{Maraun2007}
+Maraun, D., J.~Kurths, and M.~Holschneider (2007), {Nonstationary Gaussian
+  processes in wavelet domain: Synthesis, estimation, and significance
+  testing}, \textit{Phys. Rev. E}, \textit{75}, 016,707,
+  \doi{10.1103/PhysRevE.75.016707}.
 
 \bibitem[{\textit{Mariotti et~al.}(2002)\textit{Mariotti, Struglia, Zeng, and
   Lau}}]{Mariotti:etal2002}

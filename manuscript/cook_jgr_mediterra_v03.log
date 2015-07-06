@@ -1,22 +1,12 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2011) (format=pdflatex 2011.7.3)  23 JUN 2015 12:00
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  6 JUL 2015 10:16
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
 **cook_jgr_mediterra_v03.tex
 (./cook_jgr_mediterra_v03.tex
-LaTeX2e <2009/09/24>
-Babel <v3.8l> and hyphenation patterns for english, dumylang, nohyphenation, ge
-rman-x-2009-06-19, ngerman-x-2009-06-19, afrikaans, ancientgreek, ibycus, arabi
-c, armenian, basque, bulgarian, catalan, pinyin, coptic, croatian, czech, danis
-h, dutch, ukenglish, usenglishmax, esperanto, estonian, ethiopic, farsi, finnis
-h, french, galician, german, ngerman, swissgerman, monogreek, greek, hungarian,
- icelandic, assamese, bengali, gujarati, hindi, kannada, malayalam, marathi, or
-iya, panjabi, tamil, telugu, indonesian, interlingua, irish, italian, kurmanji,
- lao, latin, latvian, lithuanian, mongolian, mongolianlmc, bokmal, nynorsk, pol
-ish, portuguese, romanian, russian, sanskrit, serbian, serbianc, slovak, sloven
-ian, spanish, swedish, turkish, turkmen, ukrainian, uppersorbian, welsh, loaded
-.
+LaTeX2e <2014/05/01>
+Babel <3.9k> and hyphenation patterns for 78 languages loaded.
 (./AGUTeX.cls
 
 
@@ -192,7 +182,7 @@ Document Class: agutex 02/09/2008
 \titlesize=\dimen150
 LaTeX Info: Redefining \cite on input line 7471.
 \c@NAT@ctr=\count130
-) (/usr/local/texlive/2011/texmf-dist/tex/latex/lineno/lineno.sty
+) (/usr/local/texlive/2014/texmf-dist/tex/latex/lineno/lineno.sty
 Package: lineno 2005/11/02 line numbers on paragraphs v4.41
 \linenopenalty=\count131
 \output=\toks15
@@ -210,36 +200,36 @@ Package: lineno 2005/11/02 line numbers on paragraphs v4.41
 \bframebox=\box56
 LaTeX Info: Redefining \\ on input line 3056.
 )
-(/usr/local/texlive/2011/texmf-dist/tex/latex/url/url.sty
+(/usr/local/texlive/2014/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip10
-Package: url 2006/04/12  ver 3.3  Verb mode for urls, etc.
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
-(/usr/local/texlive/2011/texmf-dist/tex/latex/graphics/graphicx.sty
-Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+(/usr/local/texlive/2014/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2014/04/25 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
 
-(/usr/local/texlive/2011/texmf-dist/tex/latex/graphics/keyval.sty
-Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+(/usr/local/texlive/2014/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/05/08 v1.15 key=value parser (DPC)
 \KV@toks@=\toks16
 )
-(/usr/local/texlive/2011/texmf-dist/tex/latex/graphics/graphics.sty
+(/usr/local/texlive/2014/texmf-dist/tex/latex/graphics/graphics.sty
 Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
 
-(/usr/local/texlive/2011/texmf-dist/tex/latex/graphics/trig.sty
+(/usr/local/texlive/2014/texmf-dist/tex/latex/graphics/trig.sty
 Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
 )
-(/usr/local/texlive/2011/texmf-dist/tex/latex/latexconfig/graphics.cfg
+(/usr/local/texlive/2014/texmf-dist/tex/latex/latexconfig/graphics.cfg
 File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
 )
 Package graphics Info: Driver file: pdftex.def on input line 91.
 
-(/usr/local/texlive/2011/texmf-dist/tex/latex/pdftex-def/pdftex.def
+(/usr/local/texlive/2014/texmf-dist/tex/latex/pdftex-def/pdftex.def
 File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
 
-(/usr/local/texlive/2011/texmf-dist/tex/generic/oberdiek/infwarerr.sty
-Package: infwarerr 2010/04/08 v1.3 Providing info/warning/message (HO)
+(/usr/local/texlive/2014/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
 )
-(/usr/local/texlive/2011/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
-Package: ltxcmds 2011/04/18 v1.20 LaTeX kernel commands for general use (HO)
+(/usr/local/texlive/2014/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 )
 \Gread@gobject=\count138
 ))
@@ -298,7 +288,7 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 128.
 LaTeX Font Info:    ... okay on input line 128.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 128.
 LaTeX Font Info:    ... okay on input line 128.
- (/usr/local/texlive/2011/texmf-dist/tex/context/base/supp-pdf.mkii
+ (/usr/local/texlive/2014/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count139
 \scratchdimen=\dimen158
@@ -311,14 +301,15 @@ LaTeX Font Info:    ... okay on input line 128.
 \MPnumerator=\count143
 \makeMPintoPDFobject=\count144
 \everyMPtoPDFconversion=\toks18
-) (/usr/local/texlive/2011/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
-Package: pdftexcmds 2011/04/22 v0.16 Utilities of pdfTeX for LuaTeX (HO)
+) (/usr/local/texlive/2014/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
+)
 
-(/usr/local/texlive/2011/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+(/usr/local/texlive/2014/texmf-dist/tex/generic/oberdiek/ifluatex.sty
 Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
 Package ifluatex Info: LuaTeX not detected.
 )
-(/usr/local/texlive/2011/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+(/usr/local/texlive/2014/texmf-dist/tex/generic/oberdiek/ifpdf.sty
 Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
 Package ifpdf Info: pdfTeX in PDF mode is detected.
 )
@@ -327,23 +318,23 @@ Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
 )
-(/usr/local/texlive/2011/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+(/usr/local/texlive/2014/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
 
-(/usr/local/texlive/2011/texmf-dist/tex/latex/oberdiek/grfext.sty
-Package: grfext 2010/08/19 v1.1 Managing graphics extensions (HO)
+(/usr/local/texlive/2014/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
 
-(/usr/local/texlive/2011/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
-Package: kvdefinekeys 2011/04/07 v1.3 Defining keys (HO)
+(/usr/local/texlive/2014/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
+Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
 ))
-(/usr/local/texlive/2011/texmf-dist/tex/latex/oberdiek/kvoptions.sty
-Package: kvoptions 2010/12/23 v3.10 Keyval support for LaTeX options (HO)
+(/usr/local/texlive/2014/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
 
-(/usr/local/texlive/2011/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
-Package: kvsetkeys 2011/04/07 v1.13 Key value parser (HO)
+(/usr/local/texlive/2014/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
 
-(/usr/local/texlive/2011/texmf-dist/tex/generic/oberdiek/etexcmds.sty
-Package: etexcmds 2011/02/16 v1.5 Prefix for e-TeX command names (HO)
+(/usr/local/texlive/2014/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
 Package etexcmds Info: Could not find \expanded.
 (etexcmds)             That can mean that you are not using pdfTeX 1.50 or
 (etexcmds)             that some package has redefined \expanded.
@@ -354,72 +345,115 @@ Package grfext Info: Graphics extension search list:
 G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 452.
 
-(/usr/local/texlive/2011/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+(/usr/local/texlive/2014/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 178.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 178.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 178.
-
-[1{/usr/local/texlive/2011/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
+[1{/usr/local/texlive/2014/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 178--178
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 179.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 179.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 179.
+
+[2]
+Underfull \hbox (badness 10000) in paragraph at lines 179--179
+\OT1/cmr/m/n/12 cerns that an-thro-pogenic cli-mate change may be con-tribut-in
+g to ob-served
+ []
+
+
+Overfull \hbox (20.62405pt too wide) in paragraph at lines 179--179
+\OT1/cmr/m/n/12 is still poorly un-der-stood. Here, we an-a-lyze 900 years (110
+0--2012) of Mediter-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 179--179
 \OT1/cmr/m/n/12 is highly cor-re-lated with spring pre-cip-i-ta-tion (April--Ju
 ne), the North At-
  []
 
 
-Overfull \hbox (26.69603pt too wide) in paragraph at lines 178--178
+Overfull \hbox (26.69603pt too wide) in paragraph at lines 179--179
 \OT1/cmr/m/n/12 lantic Os-cil-la-tion (January--April), the Scan-di-na-vian Pat
 -tern (January--March),
  []
 
 
-Overfull \hbox (13.22134pt too wide) in paragraph at lines 178--178
+Overfull \hbox (13.22134pt too wide) in paragraph at lines 179--179
 \OT1/cmr/m/n/12 and the East At-lantic Pat-tern (April--June). Drought vari-abi
 l-ity in the basin
  []
 
 
-Overfull \hbox (31.43219pt too wide) in paragraph at lines 178--178
+Overfull \hbox (31.43219pt too wide) in paragraph at lines 179--179
 \OT1/cmr/m/n/12 shows sig-nif-i-cant east-west co-her-ence on multi-decadal to 
 cen-ten-nial time scales,
  []
 
 
-Overfull \hbox (15.0393pt too wide) in paragraph at lines 178--178
+Overfull \hbox (15.0393pt too wide) in paragraph at lines 179--179
 \OT1/cmr/m/n/12 con-trary to pre-vi-ous anal-y-ses. We also find sig-nif-i-cant
  North-South an-tiphas-
  []
 
 
-Overfull \hbox (19.66716pt too wide) in paragraph at lines 178--178
-\OT1/cmr/m/n/12 tain-ties us-ing a Monte-Carlo ap-proach, we con-clude that the
-re is an 89% like-
+Overfull \hbox (26.6782pt too wide) in paragraph at lines 179--179
+\OT1/cmr/m/n/12 ity in the North At-lantic Os-cil-la-tion. Re-cent droughts are
+ cen-tered in the west-
  []
 
-[2] [3] [4] [5] [6] [7] [8] [9] [10] [11] [12] [13] [14] [15]
-(./cook_jgr_mediterra_v03.bbl [16] [17] [18] [19]
 
-LaTeX Warning: Command \textendash invalid in math mode on input line 209.
+Underfull \hbox (badness 10000) in paragraph at lines 179--179
+\OT1/cmr/m/n/12 ern Mediter-ranean, Greece, and the Lev-ant re-gion. Events of 
+sim-i-lar mag-
+ []
 
-[20] [21] [22]
+
+Overfull \hbox (13.48526pt too wide) in paragraph at lines 179--179
+\OT1/cmr/m/n/12 ni-tude in the west-ern Mediter-ranean and Greece are ap-par-en
+t in the OWDA
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 179--179
+\OT1/cmr/m/n/12 un-cer-tain-ties us-ing a Monte-Carlo ap-proach, we con-clude t
+hat there is an
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 179--179
+\OT1/cmr/m/n/12 89% like-li-hood that the re-cent Lev-ant drought is drier than
+ any com-pa-ra-
+ []
+
+
+Overfull \hbox (16.8825pt too wide) in paragraph at lines 179--179
+\OT1/cmr/m/n/12 ble pe-riod of the last 900 years, pos-si-bly in-di-cat-ing the
+ emer-gence of a green-
+ []
+
+[3] [4] [5] [6] [7] [8] [9] [10] [11] [12] [13] [14] [15] [16]
+(./cook_jgr_mediterra_v03.bbl [17] [18] [19] [20] [21] [22]
+
+LaTeX Warning: Command \textendash invalid in math mode on input line 240.
+
+[23] [24] [25]
 Missing character: There is no × in font cmr12!
 Missing character: There is no ³ in font cmr12!
- [23] [24]) [25]
-<fig_01_map_sites.png, id=91, 682.4697pt x 341.3553pt>
+ [26] [27]) [28]
+<fig_01_map_sites.png, id=100, 706.5597pt x 341.3553pt>
 File: fig_01_map_sites.png Graphic file (type png)
 
 <use fig_01_map_sites.png>
 Package pdftex.def Info: fig_01_map_sites.png used on input line 423.
-(pdftex.def)             Requested size: 492.0pt x 246.09334pt.
+(pdftex.def)             Requested size: 492.0pt x 237.7022pt.
 
-<fig_02_corr_owda_prec_MED1.png, id=92, 685.6014pt x 501.7947pt>
+<fig_02_corr_owda_prec_MED1.png, id=101, 685.6014pt x 501.7947pt>
 File: fig_02_corr_owda_prec_MED1.png Graphic file (type png)
 
 <use fig_02_corr_owda_prec_MED1.png>
@@ -427,28 +461,28 @@ Package pdftex.def Info: fig_02_corr_owda_prec_MED1.png used on input line 429.
 
 (pdftex.def)             Requested size: 442.797pt x 324.0877pt.
 
-<fig_03_teleconn_corr_MED1.png, id=93, 1360.6032pt x 871.3353pt>
+<fig_03_teleconn_corr_MED1.png, id=102, 1360.6032pt x 871.3353pt>
 File: fig_03_teleconn_corr_MED1.png Graphic file (type png)
 
 <use fig_03_teleconn_corr_MED1.png>
 Package pdftex.def Info: fig_03_teleconn_corr_MED1.png used on input line 435.
 (pdftex.def)             Requested size: 492.0pt x 315.07649pt.
 
-<fig_04_ave_area_pdsi_MED1.png, id=94, 1057.551pt x 774.4935pt>
+<fig_04_ave_area_pdsi_MED1.png, id=103, 1057.551pt x 774.4935pt>
 File: fig_04_ave_area_pdsi_MED1.png Graphic file (type png)
 
 <use fig_04_ave_area_pdsi_MED1.png>
 Package pdftex.def Info: fig_04_ave_area_pdsi_MED1.png used on input line 441.
 (pdftex.def)             Requested size: 492.0pt x 360.31302pt.
 
-<fig_05_drght_pluv_events.png, id=95, 1237.7442pt x 791.3565pt>
+<fig_05_drght_pluv_events.png, id=104, 1237.7442pt x 791.3565pt>
 File: fig_05_drght_pluv_events.png Graphic file (type png)
 
 <use fig_05_drght_pluv_events.png>
 Package pdftex.def Info: fig_05_drght_pluv_events.png used on input line 447.
 (pdftex.def)             Requested size: 492.0pt x 314.55667pt.
 
-<fig_06_pdsi_40_50_composite.png, id=96, 778.8297pt x 529.4982pt>
+<fig_06_pdsi_40_50_composite.png, id=105, 778.8297pt x 529.4982pt>
 File: fig_06_pdsi_40_50_composite.png Graphic file (type png)
 
 <use fig_06_pdsi_40_50_composite.png>
@@ -456,7 +490,7 @@ Package pdftex.def Info: fig_06_pdsi_40_50_composite.png used on input line 453
 .
 (pdftex.def)             Requested size: 442.797pt x 301.04147pt.
 
-<fig_07_east_west_mideast_corrmap.png, id=97, 767.9892pt x 731.8542pt>
+<fig_07_east_west_mideast_corrmap.png, id=106, 767.9892pt x 731.8542pt>
 File: fig_07_east_west_mideast_corrmap.png Graphic file (type png)
 
 <use fig_07_east_west_mideast_corrmap.png>
@@ -464,7 +498,7 @@ Package pdftex.def Info: fig_07_east_west_mideast_corrmap.png used on input lin
 e 459.
 (pdftex.def)             Requested size: 442.797pt x 421.96312pt.
 
-<fig_08_eastwest_mtm_spectra.png, id=98, 1189.5642pt x 505.89pt>
+<fig_08_eastwest_mtm_spectra.png, id=107, 1189.5642pt x 505.89pt>
 File: fig_08_eastwest_mtm_spectra.png Graphic file (type png)
 
 <use fig_08_eastwest_mtm_spectra.png>
@@ -472,28 +506,28 @@ Package pdftex.def Info: fig_08_eastwest_mtm_spectra.png used on input line 465
 .
 (pdftex.def)             Requested size: 492.0pt x 209.23798pt.
 
-<fig_09_eastwest_cohere.png, id=99, 1093.2042pt x 798.1017pt>
+<fig_09_eastwest_cohere.png, id=108, 1093.2042pt x 798.1017pt>
 File: fig_09_eastwest_cohere.png Graphic file (type png)
 
 <use fig_09_eastwest_cohere.png>
 Package pdftex.def Info: fig_09_eastwest_cohere.png used on input line 471.
 (pdftex.def)             Requested size: 442.797pt x 323.26596pt.
 
-<fig_10_wavelet_coh.png, id=100, 517.4532pt x 379.8993pt>
+<fig_10_wavelet_coh.png, id=109, 517.4532pt x 379.8993pt>
 File: fig_10_wavelet_coh.png Graphic file (type png)
 
 <use fig_10_wavelet_coh.png>
 Package pdftex.def Info: fig_10_wavelet_coh.png used on input line 477.
 (pdftex.def)             Requested size: 492.0pt x 361.22112pt.
 
-<fig_11_map_bar_pdsi.png, id=101, 1877.3337pt x 1202.091pt>
+<fig_11_map_bar_pdsi.png, id=110, 1877.3337pt x 1202.091pt>
 File: fig_11_map_bar_pdsi.png Graphic file (type png)
 
 <use fig_11_map_bar_pdsi.png>
 Package pdftex.def Info: fig_11_map_bar_pdsi.png used on input line 483.
 (pdftex.def)             Requested size: 492.0pt x 315.03085pt.
 
-<fig_12_regional_series_MED1.png, id=102, 1035.6291pt x 1166.1969pt>
+<fig_12_regional_series_MED1.png, id=111, 1035.6291pt x 1166.1969pt>
 File: fig_12_regional_series_MED1.png Graphic file (type png)
 
 <use fig_12_regional_series_MED1.png>
@@ -501,46 +535,46 @@ Package pdftex.def Info: fig_12_regional_series_MED1.png used on input line 489
 .
 (pdftex.def)             Requested size: 442.797pt x 498.60774pt.
 
-<fig_13_pdsi_boxplot.png, id=103, 1330.9725pt x 409.53pt>
+<fig_13_pdsi_boxplot.png, id=112, 1330.9725pt x 409.53pt>
 File: fig_13_pdsi_boxplot.png Graphic file (type png)
 
 <use fig_13_pdsi_boxplot.png>
 Package pdftex.def Info: fig_13_pdsi_boxplot.png used on input line 495.
 (pdftex.def)             Requested size: 492.0pt x 151.37999pt.
- [26 <./fig_01_map_sites.png (PNG copy)>] [27 <./fig_02_corr_owda_prec_MED1.png
- (PNG copy)>] [28 <./fig_03_teleconn_corr_MED1.png (PNG copy)>] [29 <./fig_04_a
-ve_area_pdsi_MED1.png (PNG copy)>] [30 <./fig_05_drght_pluv_events.png (PNG cop
-y)>] [31 <./fig_06_pdsi_40_50_composite.png (PNG copy)>] [32 <./fig_07_east_wes
-t_mideast_corrmap.png (PNG copy)>] [33 <./fig_08_eastwest_mtm_spectra.png (PNG 
-copy)>] [34 <./fig_09_eastwest_cohere.png (PNG copy)>] [35 <./fig_10_wavelet_co
-h.png (PNG copy)>] [36 <./fig_11_map_bar_pdsi.png (PNG copy)>] [37 <./fig_12_re
-gional_series_MED1.png (PNG copy)>] [38 <./fig_13_pdsi_boxplot.png (PNG copy)>]
+ [29 <./fig_01_map_sites.png (PNG copy)>] [30 <./fig_02_corr_owda_prec_MED1.png
+ (PNG copy)>] [31 <./fig_03_teleconn_corr_MED1.png (PNG copy)>] [32 <./fig_04_a
+ve_area_pdsi_MED1.png (PNG copy)>] [33 <./fig_05_drght_pluv_events.png (PNG cop
+y)>] [34 <./fig_06_pdsi_40_50_composite.png (PNG copy)>] [35 <./fig_07_east_wes
+t_mideast_corrmap.png (PNG copy)>] [36 <./fig_08_eastwest_mtm_spectra.png (PNG 
+copy)>] [37 <./fig_09_eastwest_cohere.png (PNG copy)>] [38 <./fig_10_wavelet_co
+h.png (PNG copy)>] [39 <./fig_11_map_bar_pdsi.png (PNG copy)>] [40 <./fig_12_re
+gional_series_MED1.png (PNG copy)>] [41 <./fig_13_pdsi_boxplot.png (PNG copy)>]
  (./cook_jgr_mediterra_v03.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 2744 strings out of 493633
- 38322 string characters out of 3143378
- 114757 words of memory out of 3000000
- 6027 multiletter control sequences out of 15000+200000
- 13617 words of font info for 47 fonts, out of 3000000 for 9000
- 831 hyphenation exceptions out of 8191
- 37i,7n,25p,2140b,532s stack positions out of 5000i,500n,10000p,200000b,50000s
-</usr/local/texlive/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
-></usr/local/texlive/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb>
-</usr/local/texlive/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></
-usr/local/texlive/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></us
-r/local/texlive/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/l
-ocal/texlive/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/loc
-al/texlive/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/loca
-l/texlive/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local
-/texlive/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on cook_jgr_mediterra_v03.pdf (38 pages, 17406369 bytes).
+ 2783 strings out of 493117
+ 38933 string characters out of 6135433
+ 122590 words of memory out of 5000000
+ 6229 multiletter control sequences out of 15000+600000
+ 13617 words of font info for 47 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 37i,7n,25p,2580b,550s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
+></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb>
+</usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></
+usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></us
+r/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/l
+ocal/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/loc
+al/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/loca
+l/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local
+/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
+Output written on cook_jgr_mediterra_v03.pdf (41 pages, 17430689 bytes).
 PDF statistics:
- 178 PDF objects out of 1000 (max. 8388607)
- 114 compressed objects within 2 object streams
+ 187 PDF objects out of 1000 (max. 8388607)
+ 120 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  66 words of extra memory for PDF output out of 10000 (max. 10000000)
 

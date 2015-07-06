@@ -35,10 +35,11 @@ colors = [...
 figure
 hold on
 m_proj(proj_name, 'lon', lonlim,'lat', latlim);
+% m_grid('linestyle', 'none','fontsize',14,'fontname','arial',...
+%      'xticklabels',[],'yticklabels',[],...
+%      'FontWeight','bold');
 m_grid('linestyle', 'none','fontsize',14,'fontname','arial',...
-     'xticklabels',[],'yticklabels',[],...
      'FontWeight','bold');
-%m_coast('color','k','LineWidth',2);
 m_plot(M_coast.x,M_coast.y,'LineWidth',1,'Color',[0 0 0])
 m_plot(M_country.x,M_country.y,'LineWidth',1,'Color',[0 0 0])
 
@@ -50,25 +51,25 @@ for i_site=1:length(site_lats)
     % Choose Marker Color Based on Starting Year
     if yr_start(i_site)<=1100
         mark_col = colors(5,:)% [177	46	48]./255;  % RED
-        mxi(i_site,1) = 1100
+        mxi(i_site,1) = 1100; m_rk='v';
     elseif yr_start(i_site)>1100 & yr_start(i_site)<=1200
         mark_col = colors(4,:)% [177	111	52]./255;  % BROWN
-        mxi(i_site,1) =  1200
+        mxi(i_site,1) =  1200; m_rk='o';
     elseif yr_start(i_site)>1200 & yr_start(i_site)<=1300
         mark_col = colors(3,:) % [134	177	56]./255;   % Green
-        mxi(i_site,1) = 1300
+        mxi(i_site,1) = 1300; m_rk='s';
     elseif yr_start(i_site)>1300 & yr_start(i_site)<=1400
         mark_col = colors(2,:) % [50	134	177]./255; % Blue
-        mxi(i_site,1) = 1400
+        mxi(i_site,1) = 1400; m_rk='d';
     elseif yr_start(i_site)>=1400 & yr_start(i_site)<=1700
          mark_col = colors(1,:) % [66	51	176]./255;  % Purple
-         mxi(i_site,1) = 1700
+         mxi(i_site,1) = 1700; m_rk='^';
     else
         mark_col = [1 1 1]
     end
     
     mx(i_site)=m_plot(site_lons(i_site),site_lats(i_site),'Color','k','LineStyle','none',...
-        'Marker','o','MarkerFaceColor',mark_col);
+        'Marker',m_rk,'MarkerFaceColor',mark_col);
 
 end
 

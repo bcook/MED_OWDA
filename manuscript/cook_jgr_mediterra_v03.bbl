@@ -1,4 +1,4 @@
-\begin{thebibliography}{65}
+\begin{thebibliography}{74}
 \providecommand{\natexlab}[1]{#1}
 \expandafter\ifx\csname urlstyle\endcsname\relax
   \providecommand{\doi}[1]{doi:\discretionary{}{}{}#1}\else
@@ -46,6 +46,32 @@ Chave, A.~D., D.~J. Thomson, and M.~E. Ander (1987), {On the robust estimation
 Chbouki, N., C.~W. Stockton, and D.~Myers (1995), {Spatio-temporal patterns of
   drought in {Morocco}}, \textit{International Journal of Climatology},
   \textit{15}, 187--205, \doi{DOI: 10.1002/joc.3370150205}.
+
+\bibitem[{\textit{Cleveland and Devlin}(1988)}]{Cleveland:etal1988}
+Cleveland, W.~S., and S.~J. Devlin (1988), {Locally Weighted Regression: An
+  Approach to Regression Analysis by Local Fitting}, \textit{Journal of the
+  American Statistical Association}, \textit{83}(403), 596,
+  \doi{10.2307/2289282}.
+
+\bibitem[{\textit{Collins et~al.}(2013)\textit{Collins, Knutti, Arblaster,
+  Dufresne, Fichefet, Friedlingstein, Gao, Gutowski, Johns, Krinner, Shongwe,
+  Tebaldi, Weaver, and Wehner}}]{IPCC_Collins:etal2013}
+Collins, M., R.~Knutti, J.~Arblaster, J.-L. Dufresne, T.~Fichefet,
+  P.~Friedlingstein, X.~Gao, W.~Gutowski, T.~Johns, G.~Krinner, M.~Shongwe,
+  C.~Tebaldi, A.~Weaver, and M.~Wehner (2013), Long-term climate change:
+  Projections, commitments and irreversibility, in \textit{Climate Change 2013:
+  The Physical Science Basis. Contribution of Working Group I to the Fifth
+  Assessment Report of the Intergovernmental Panel on Climate Change}, edited
+  by T.~Stocker, D.~Qin, G.-K. Plattner, M.~Tignor, S.~Allen, J.~Boschung,
+  A.~Nauels, Y.~Xia, V.~Bex, and P.~Midgley, pp. 1029--1136, Cambridge
+  University Press, Cambridge, United Kingdom and New York, NY, USA,
+  \doi{10.1017/CBO9781107415324.024}.
+
+\bibitem[{\textit{Cook et~al.}(2014)\textit{Cook, Smerdon, Seager, and
+  Cook}}]{Cook2014}
+Cook, B.~I., J.~E. Smerdon, R.~Seager, and E.~R. Cook (2014), {Pan-Continental
+  Droughts in North America over the Last Millennium}, \textit{Journal of
+  Climate}, \textit{27}(1), 383--397, \doi{10.1175/JCLI-D-13-00100.1}.
 
 \bibitem[{\textit{Cook et~al.}(1999)\textit{Cook, Meko, Stahle, and
   Cleaveland}}]{Cook1999}
@@ -142,6 +168,11 @@ Hoerling, M., J.~Eischeid, J.~Perlwitz, X.~Quan, T.~Zhang, and P.~Pegion
   (2012), {On the Increased Frequency of Mediterranean Drought},
   \textit{Journal of Climate}, \textit{25}(6), 2146--2161,
   \doi{10.1175/JCLI-D-11-00296.1}.
+
+\bibitem[{\textit{Hu and Feng}(2012)}]{Hu2012}
+Hu, Q., and S.~Feng (2012), {AMO- and ENSO-Driven Summertime Circulation and
+  Precipitation Variations in North America}, \textit{Journal of Climate},
+  \textit{25}(19), 6477--6495, \doi{10.1175/JCLI-D-11-00520.1}.
 
 \bibitem[{\textit{Hurrell}(1995)}]{Hurrell1995}
 Hurrell, J.~W. (1995), {Decadal Trends in the North Atlantic Oscillation:
@@ -264,6 +295,20 @@ Mariotti, A., M.~V. Struglia, N.~Zeng, and K.~Lau (2002), {The hydrological
   1674--1690,
   \doi{http://dx.doi.org/10.1175/1520-0442(2002)015<1674:THCITM>2.0.CO;2}.
 
+\bibitem[{\textit{Meko et~al.}(2012)\textit{Meko, Woodhouse, and
+  Morino}}]{Meko2012}
+Meko, D., C.~Woodhouse, and K.~Morino (2012), Dendrochronology and links to
+  streamflow, \textit{Journal of Hydrology}, \textit{412-413}(0), 200 -- 209,
+  \doi{http://dx.doi.org/10.1016/j.jhydrol.2010.11.041}, hydrology Conference
+  2010.
+
+\bibitem[{\textit{Meko et~al.}(2007)\textit{Meko, Woodhouse, Baisan, Knight,
+  Lukas, Hughes, and Salzer}}]{Meko:etal2007a}
+Meko, D.~M., C.~A. Woodhouse, C.~A. Baisan, T.~Knight, J.~J. Lukas, M.~K.
+  Hughes, and M.~W. Salzer (2007), {Medieval drought in the upper Colorado
+  River Basin}, \textit{Geophysical Research Letters}, \textit{34}(10),
+  10,705--10,709, \doi{10.1029/2007GL029988}.
+
 \bibitem[{\textit{Moreno et~al.}(2012)\textit{Moreno, P{\'e}rez, Frigola,
   Nieto-Moreno, Rodrigo-G{\'a}miz, Martrat, Gonz{\'a}lez-Samp{\'e}riz,
   Morell{\'o}n, Mart{\'\i}n-Puertas, Corella et~al.}}]{Moreno:etal2012}
@@ -280,6 +325,13 @@ Nicault, A., S.~Alleaume, S.~Brewer, M.~Carrer, P.~Nola, and J.~Guiot (2008),
   {Mediterranean drought fluctuation during the last 500 years based on
   tree-ring data}, \textit{Climate Dynamics}, \textit{31}(2-3), 227--245,
   \doi{10.1007/s00382-007-0349-3}.
+
+\bibitem[{\textit{Ortega et~al.}(2015)\textit{Ortega, Lehner, Swingedouw,
+  Masson-Delmotte, Raible, Casado, and Yiou}}]{Ortega:etal2015}
+Ortega, P., F.~Lehner, D.~Swingedouw, V.~Masson-Delmotte, C.~C. Raible,
+  M.~Casado, and P.~Yiou (2015), {A model-tested North Atlantic Oscillation
+  reconstruction for the past millennium}, \textit{Nature}, \textit{523}(7558),
+  71--74, \doi{10.1038/nature14518}.
 
 \bibitem[{\textit{Osborn}(2004)}]{Osborn:2004}
 Osborn, T. (2004), {Simulating the winter North Atlantic Oscillation: the roles
@@ -406,6 +458,13 @@ Touchan, R., D.~M. Meko, and K.~J. Anchukaitis (2014{\natexlab{b}}),
   {Dendroclimatology in the Eastern Mediterranean}, \textit{Tree-Ring
   Research}, \textit{in press}.
 
+\bibitem[{\textit{Trouet et~al.}(2009)\textit{Trouet, Esper, Graham, Baker,
+  Scourse, and Frank}}]{Trouet:etal2009}
+Trouet, V., J.~Esper, N.~E. Graham, A.~Baker, J.~D. Scourse, and D.~C. Frank
+  (2009), {Persistent Positive North Atlantic Oscillation Mode Dominated the
+  Medieval Climate Anomaly}, \textit{Science}, \textit{324}(5923), 78--80,
+  \doi{10.1126/science.1166349}.
+
 \bibitem[{\textit{van~der Schrier et~al.}(2013)\textit{van~der Schrier,
   Barichivich, Briffa, and Jones}}]{Schrier2013}
 van~der Schrier, G., J.~Barichivich, K.~R. Briffa, and P.~D. Jones (2013), {A
@@ -438,5 +497,11 @@ Xoplaki, E., J.~Gonz\'alez-Rouco, J.~Luterbacher, and H.~Wanner (2004), {Wet
   season Mediterranean precipitation variability: influence of large-scale
   dynamics and trends}, \textit{Climate Dynamics}, \textit{23}(1),
   \doi{10.1007/s00382-004-0422-0}.
+
+\bibitem[{\textit{Xu and Singh}(2002)}]{Xu2002}
+Xu, C.-Y., and V.~P. Singh (2002), {Cross Comparison of Empirical Equations for
+  Calculating Potential Evapotranspiration with Data from Switzerland},
+  \textit{Water Resources Management}, \textit{16}(3), 197--219,
+  \doi{10.1023/A:1020282515975}.
 
 \end{thebibliography}

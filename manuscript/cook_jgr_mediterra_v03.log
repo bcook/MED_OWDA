@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  6 JUL 2015 10:16
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  13 JUL 2015 12:26
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -422,42 +422,33 @@ t in the OWDA
 
 Underfull \hbox (badness 10000) in paragraph at lines 179--179
 \OT1/cmr/m/n/12 un-cer-tain-ties us-ing a Monte-Carlo ap-proach, we con-clude t
-hat there is an
+here is an 89%
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 179--179
-\OT1/cmr/m/n/12 89% like-li-hood that the re-cent Lev-ant drought is drier than
- any com-pa-ra-
+\OT1/cmr/m/n/12 riod of the last 900 years, pos-si-bly in-di-cat-ing the emer-g
+ence of an an-thro-
  []
 
+[3] [4] [5] [6] [7] [8] [9] [10] [11] [12] [13] [14] [15] [16] [17] [18]
+[19] [20] [21] [22]
 
-Overfull \hbox (16.8825pt too wide) in paragraph at lines 179--179
-\OT1/cmr/m/n/12 ble pe-riod of the last 900 years, pos-si-bly in-di-cat-ing the
- emer-gence of a green-
- []
+LaTeX Warning: Command \textendash invalid in math mode on input line 559.
 
-[3] [4] [5] [6] [7] [8] [9] [10] [11] [12] [13] [14] [15] [16]
-(./cook_jgr_mediterra_v03.bbl [17] [18] [19] [20] [21] [22]
-
-LaTeX Warning: Command \textendash invalid in math mode on input line 240.
-
-[23] [24] [25]
-Missing character: There is no × in font cmr12!
-Missing character: There is no ³ in font cmr12!
- [26] [27]) [28]
+[23] [24] [25] [26] [27] [28]
 <fig_01_map_sites.png, id=100, 706.5597pt x 341.3553pt>
 File: fig_01_map_sites.png Graphic file (type png)
 
 <use fig_01_map_sites.png>
-Package pdftex.def Info: fig_01_map_sites.png used on input line 423.
+Package pdftex.def Info: fig_01_map_sites.png used on input line 930.
 (pdftex.def)             Requested size: 492.0pt x 237.7022pt.
 
 <fig_02_corr_owda_prec_MED1.png, id=101, 685.6014pt x 501.7947pt>
 File: fig_02_corr_owda_prec_MED1.png Graphic file (type png)
 
 <use fig_02_corr_owda_prec_MED1.png>
-Package pdftex.def Info: fig_02_corr_owda_prec_MED1.png used on input line 429.
+Package pdftex.def Info: fig_02_corr_owda_prec_MED1.png used on input line 936.
 
 (pdftex.def)             Requested size: 442.797pt x 324.0877pt.
 
@@ -465,28 +456,28 @@ Package pdftex.def Info: fig_02_corr_owda_prec_MED1.png used on input line 429.
 File: fig_03_teleconn_corr_MED1.png Graphic file (type png)
 
 <use fig_03_teleconn_corr_MED1.png>
-Package pdftex.def Info: fig_03_teleconn_corr_MED1.png used on input line 435.
+Package pdftex.def Info: fig_03_teleconn_corr_MED1.png used on input line 942.
 (pdftex.def)             Requested size: 492.0pt x 315.07649pt.
 
 <fig_04_ave_area_pdsi_MED1.png, id=103, 1057.551pt x 774.4935pt>
 File: fig_04_ave_area_pdsi_MED1.png Graphic file (type png)
 
 <use fig_04_ave_area_pdsi_MED1.png>
-Package pdftex.def Info: fig_04_ave_area_pdsi_MED1.png used on input line 441.
+Package pdftex.def Info: fig_04_ave_area_pdsi_MED1.png used on input line 948.
 (pdftex.def)             Requested size: 492.0pt x 360.31302pt.
 
 <fig_05_drght_pluv_events.png, id=104, 1237.7442pt x 791.3565pt>
 File: fig_05_drght_pluv_events.png Graphic file (type png)
 
 <use fig_05_drght_pluv_events.png>
-Package pdftex.def Info: fig_05_drght_pluv_events.png used on input line 447.
+Package pdftex.def Info: fig_05_drght_pluv_events.png used on input line 954.
 (pdftex.def)             Requested size: 492.0pt x 314.55667pt.
 
 <fig_06_pdsi_40_50_composite.png, id=105, 778.8297pt x 529.4982pt>
 File: fig_06_pdsi_40_50_composite.png Graphic file (type png)
 
 <use fig_06_pdsi_40_50_composite.png>
-Package pdftex.def Info: fig_06_pdsi_40_50_composite.png used on input line 453
+Package pdftex.def Info: fig_06_pdsi_40_50_composite.png used on input line 960
 .
 (pdftex.def)             Requested size: 442.797pt x 301.04147pt.
 
@@ -495,14 +486,14 @@ File: fig_07_east_west_mideast_corrmap.png Graphic file (type png)
 
 <use fig_07_east_west_mideast_corrmap.png>
 Package pdftex.def Info: fig_07_east_west_mideast_corrmap.png used on input lin
-e 459.
+e 966.
 (pdftex.def)             Requested size: 442.797pt x 421.96312pt.
 
 <fig_08_eastwest_mtm_spectra.png, id=107, 1189.5642pt x 505.89pt>
 File: fig_08_eastwest_mtm_spectra.png Graphic file (type png)
 
 <use fig_08_eastwest_mtm_spectra.png>
-Package pdftex.def Info: fig_08_eastwest_mtm_spectra.png used on input line 465
+Package pdftex.def Info: fig_08_eastwest_mtm_spectra.png used on input line 972
 .
 (pdftex.def)             Requested size: 492.0pt x 209.23798pt.
 
@@ -510,28 +501,28 @@ Package pdftex.def Info: fig_08_eastwest_mtm_spectra.png used on input line 465
 File: fig_09_eastwest_cohere.png Graphic file (type png)
 
 <use fig_09_eastwest_cohere.png>
-Package pdftex.def Info: fig_09_eastwest_cohere.png used on input line 471.
+Package pdftex.def Info: fig_09_eastwest_cohere.png used on input line 978.
 (pdftex.def)             Requested size: 442.797pt x 323.26596pt.
 
 <fig_10_wavelet_coh.png, id=109, 517.4532pt x 379.8993pt>
 File: fig_10_wavelet_coh.png Graphic file (type png)
 
 <use fig_10_wavelet_coh.png>
-Package pdftex.def Info: fig_10_wavelet_coh.png used on input line 477.
+Package pdftex.def Info: fig_10_wavelet_coh.png used on input line 984.
 (pdftex.def)             Requested size: 492.0pt x 361.22112pt.
 
 <fig_11_map_bar_pdsi.png, id=110, 1877.3337pt x 1202.091pt>
 File: fig_11_map_bar_pdsi.png Graphic file (type png)
 
 <use fig_11_map_bar_pdsi.png>
-Package pdftex.def Info: fig_11_map_bar_pdsi.png used on input line 483.
+Package pdftex.def Info: fig_11_map_bar_pdsi.png used on input line 990.
 (pdftex.def)             Requested size: 492.0pt x 315.03085pt.
 
 <fig_12_regional_series_MED1.png, id=111, 1035.6291pt x 1166.1969pt>
 File: fig_12_regional_series_MED1.png Graphic file (type png)
 
 <use fig_12_regional_series_MED1.png>
-Package pdftex.def Info: fig_12_regional_series_MED1.png used on input line 489
+Package pdftex.def Info: fig_12_regional_series_MED1.png used on input line 996
 .
 (pdftex.def)             Requested size: 442.797pt x 498.60774pt.
 
@@ -539,7 +530,7 @@ Package pdftex.def Info: fig_12_regional_series_MED1.png used on input line 489
 File: fig_13_pdsi_boxplot.png Graphic file (type png)
 
 <use fig_13_pdsi_boxplot.png>
-Package pdftex.def Info: fig_13_pdsi_boxplot.png used on input line 495.
+Package pdftex.def Info: fig_13_pdsi_boxplot.png used on input line 1002.
 (pdftex.def)             Requested size: 492.0pt x 151.37999pt.
  [29 <./fig_01_map_sites.png (PNG copy)>] [30 <./fig_02_corr_owda_prec_MED1.png
  (PNG copy)>] [31 <./fig_03_teleconn_corr_MED1.png (PNG copy)>] [32 <./fig_04_a
@@ -555,13 +546,13 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 2783 strings out of 493117
- 38933 string characters out of 6135433
+ 2780 strings out of 493117
+ 38875 string characters out of 6135433
  122590 words of memory out of 5000000
  6229 multiletter control sequences out of 15000+600000
  13617 words of font info for 47 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 37i,7n,25p,2580b,550s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 37i,7n,25p,2580b,548s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
 ></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb>
 </usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></
@@ -571,7 +562,7 @@ ocal/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/loc
 al/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/loca
 l/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local
 /texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on cook_jgr_mediterra_v03.pdf (41 pages, 17430689 bytes).
+Output written on cook_jgr_mediterra_v03.pdf (41 pages, 17430774 bytes).
 PDF statistics:
  187 PDF objects out of 1000 (max. 8388607)
  120 compressed objects within 2 object streams
